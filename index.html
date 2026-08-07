@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>[Your Name] — Private Cello Lessons</title>
+  <title>Dmac Cello — Private Cello Lessons — Dayson Macdonald</title>
   <meta name="description" content="Private cello lessons for beginners to advanced students. In-person and online options, tailored lesson plans, performance coaching." />
-  <meta name="author" content="[Your Name]" />
+  <meta name="author" content="Dayson Macdonald" />
 
   <!-- Basic styling -->
   <style>
@@ -71,6 +71,12 @@
     .grid-2-cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
     @media (max-width:600px){.grid-2-cols{grid-template-columns:1fr}}
 
+    /* booking embed */
+    .booking-wrap{display:grid;grid-template-columns:1fr 560px;gap:18px;align-items:start}
+    @media (max-width:1000px){.booking-wrap{grid-template-columns:1fr}}
+    .iframe-card{background:var(--glass);padding:12px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.05)}
+    .iframe-responsive{width:100%;height:700px;border:0;border-radius:8px}
+
     /* mobile nav */
     .mobile-toggle{display:none;background:transparent;border:1px solid #ddd;padding:8px;border-radius:8px}
     @media (max-width:900px){
@@ -88,19 +94,18 @@
   {
     "@context": "https://schema.org",
     "@type": "MusicSchool",
-    "name": "[Your Name] Private Cello Lessons",
+    "name": "Dmac Cello — Dayson Macdonald",
     "description": "Private cello lessons for all ages. In-person and online lessons, tailored plans, performance coaching.",
-    "telephone": "[+1-555-555-5555]",
-    "email": "[you@example.com]",
-    "url": "https://your-website.example",
+    "telephone": "+1-435-619-4727",
+    "email": "daysonmacdonald@gmail.com",
+    "url": "https://daysonmac.github.io",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Your studio address (or City)",
-      "addressLocality": "City",
-      "addressRegion": "State",
-      "postalCode": "ZIP"
+      "streetAddress": "Provo",
+      "addressLocality": "Provo",
+      "addressRegion": "Utah"
     },
-    "areaServed": "Local area and online"
+    "areaServed": "Provo, Utah and online"
   }
   </script>
 </head>
@@ -109,10 +114,10 @@
     <div class="container nav" role="banner">
       <div class="brand" aria-label="Brand">
         <!-- Replace src with your logo -->
-        <img src="https://images.unsplash.com/photo-1519677100203-a0e668c92439?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Logo or cello image">
+        <img src="https://images.unsplash.com/photo-1519677100203-a0e668c92439?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Dmac Cello logo or cello image">
         <div>
-          <div style="font-size:0.9rem;color:var(--muted)">[Your Name]</div>
-          <div style="font-size:1.05rem">Private Cello Lessons</div>
+          <div style="font-size:0.9rem;color:var(--muted)">Dayson Macdonald</div>
+          <div style="font-size:1.05rem">Dmac Cello</div>
         </div>
       </div>
 
@@ -133,9 +138,10 @@
     <section class="container hero" id="home" aria-labelledby="heroTitle">
       <div class="hero-inner">
         <h1 id="heroTitle">Private cello lessons — tailored for your musical goals</h1>
-        <p class="lead">One-on-one lessons for beginners, intermediates, and aspiring performers. In-person in [City] or online via Zoom. Technique, repertoire, sight-reading, and audition prep.</p>
+        <p class="lead">One-on-one lessons for beginners, intermediates, and aspiring performers. In-person in Provo, Utah or online via Zoom. Technique, repertoire, sight-reading, and audition prep.</p>
         <div class="cta-row">
-          <a class="btn" href="#contact" id="bookNow">Book a lesson</a>
+          <!-- Book opens the Google Form in a new tab -->
+          <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdcOjSiD1KJVfDgPsMZdhG8RKm2VaNBgYIb4u5MZkTaAu4syw/viewform?usp=publish-editor" id="bookNow" target="_blank" rel="noopener">Book a lesson</a>
           <a class="btn secondary" href="#lessons">See pricing</a>
         </div>
 
@@ -160,7 +166,7 @@
       <div class="grid-2">
         <div>
           <h2 id="aboutTitle">About me</h2>
-          <p class="muted">Hi, I'm [Your Name], a professional cellist with [X] years teaching experience. I teach technique, musicality, and performance skills with a student-centered approach. I work with students of all ages and tailor lesson plans to each learner's goals.</p>
+          <p class="muted">Hi, I'm an avid cellist with over 10 years of experience playing the cello now. I've participated in symphonies and ensembles nationally, and was an All-State cellist in high school. I'm familiar and taught in the Suzuki method, but love adding to my repertoire. Now, I'm looking to further my experience as a teacher by helping all aspiring cellists further their own talents at an affordable price, and grow together!!</p>
 
           <h3>What I teach</h3>
           <ul class="list">
@@ -174,11 +180,11 @@
         <aside class="card">
           <strong>Studio info</strong>
           <div style="margin-top:8px;color:var(--muted)">
-            <div><span class="pill">In-person</span> Studio in [Neighborhood], [City]</div>
+            <div><span class="pill">In-person</span> Studio in Provo, Utah</div>
             <div style="margin-top:8px"><span class="pill">Online</span> Zoom lessons available</div>
             <div style="margin-top:12px"><strong>Contact</strong><br>
-              <a href="tel:+15555555555">+1 (555) 555‑5555</a><br>
-              <a href="mailto:you@example.com">you@example.com</a>
+              <a href="tel:+14356194727">+1 (435) 619‑4727</a><br>
+              <a href="mailto:daysonmacdonald@gmail.com">daysonmacdonald@gmail.com</a>
             </div>
           </div>
         </aside>
@@ -266,36 +272,63 @@
 
     <section class="container" id="contact" aria-labelledby="contactTitle">
       <h2 id="contactTitle" class="center">Contact & booking</h2>
-      <p class="center muted">Complete the form or call/text to arrange a trial lesson.</p>
+      <p class="center muted">Complete the form, call/text, or use the booking form to arrange a trial lesson.</p>
 
-      <div style="max-width:900px;margin:18px auto">
-        <!-- Simple contact form: if you want a working server-backed form, replace action with Formspree or your backend endpoint -->
-        <form id="contactForm" action="mailto:you@example.com" method="post" enctype="text/plain" aria-label="Contact form">
-          <div class="grid-2-cols">
-            <input type="text" name="name" placeholder="Your name" required>
-            <input type="email" name="email" placeholder="Email" required>
-          </div>
-          <div class="grid-2-cols">
-            <input type="tel" name="phone" placeholder="Phone (optional)">
-            <select name="lesson_length" aria-label="Preferred lesson length">
-              <option value="">Preferred lesson length</option>
-              <option value="30">30 minutes</option>
-              <option value="45">45 minutes</option>
-              <option value="60">60 minutes</option>
-            </select>
+      <div style="max-width:1100px;margin:18px auto" class="booking-wrap">
+        <!-- Left: traditional mailto contact form -->
+        <div>
+          <div class="card" style="margin-bottom:12px">
+            <strong>Send a message</strong>
+            <div class="muted" style="margin-top:8px">Prefer email? Use the form below and I'll get back to you.</div>
           </div>
 
-          <textarea name="message" placeholder="Tell me about your goals (experience, age, availability)" required></textarea>
+          <!-- Simple contact form: keeps mailto fallback -->
+          <form id="contactForm" action="mailto:daysonmacdonald@gmail.com" method="post" enctype="text/plain" aria-label="Contact form">
+            <div class="grid-2-cols">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="grid-2-cols">
+              <input type="tel" name="phone" placeholder="Phone (optional)">
+              <select name="lesson_length" aria-label="Preferred lesson length">
+                <option value="">Preferred lesson length</option>
+                <option value="30">30 minutes</option>
+                <option value="45">45 minutes</option>
+                <option value="60">60 minutes</option>
+              </select>
+            </div>
 
-          <div style="display:flex;gap:12px;align-items:center">
-            <button class="btn" type="submit">Send request</button>
-            <a class="btn secondary" href="tel:+15555555555">Call / Text: +1 (555) 555‑5555</a>
+            <textarea name="message" placeholder="Tell me about your goals (experience, age, availability)" required></textarea>
+
+            <div style="display:flex;gap:12px;align-items:center">
+              <button class="btn" type="submit">Send request</button>
+              <a class="btn secondary" href="tel:+14356194727">Call / Text: +1 (435) 619‑4727</a>
+            </div>
+
+            <div style="margin-top:8px;font-size:0.9rem;color:var(--muted)">
+              Note: This form uses mailto: by default. Use the booking form at right for a dedicated booking workflow.
+            </div>
+          </form>
+        </div>
+
+        <!-- Right: embedded Google Form -->
+        <div class="iframe-card">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+            <div>
+              <strong>Book online</strong>
+              <div class="muted" style="margin-top:6px">Use the form below to request a lesson slot.</div>
+            </div>
+            <div>
+              <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdcOjSiD1KJVfDgPsMZdhG8RKm2VaNBgYIb4u5MZkTaAu4syw/viewform?usp=publish-editor" target="_blank" rel="noopener">Open booking form</a>
+            </div>
           </div>
 
-          <div style="margin-top:8px;font-size:0.9rem;color:var(--muted)">
-            Note: This form uses mailto: by default. For a professional booking flow, integrate with Formspree, Google Forms, or a booking app (instructions below).
+          <!-- Embedded Google Form: add embedded=true so the form displays in an iframe.
+               We keep the user's original URL available as the Open booking form link above. -->
+          <div style="margin-top:12px">
+            <iframe class="iframe-responsive" src="https://docs.google.com/forms/d/e/1FAIpQLSdcOjSiD1KJVfDgPsMZdhG8RKm2VaNBgYIb4u5MZkTaAu4syw/viewform?usp=publish-editor&embedded=true" title="Book a lesson — Dmac Cello"></iframe>
           </div>
-        </form>
+        </div>
       </div>
     </section>
   </main>
@@ -303,8 +336,8 @@
   <footer>
     <div class="container">
       <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-        <div>&copy; <span id="year"></span> [Your Name] — Private Cello Lessons</div>
-        <div class="muted">Studio in [City] · Online lessons available</div>
+        <div>&copy; <span id="year"></span> Dayson Macdonald — Dmac Cello</div>
+        <div class="muted">Studio in Provo, Utah · Online lessons available</div>
       </div>
     </div>
   </footer>
@@ -334,7 +367,7 @@
     const form = document.getElementById('contactForm');
     form && form.addEventListener('submit', (e)=>{
       // mailto fallback will open user's mail client; keep default behavior.
-      // If you'd like to use an API, replace the form action with a server endpoint.
+      // If you'd like to use a server endpoint or Formspree instead, I can update this.
     });
   </script>
 </body>
